@@ -1,0 +1,122 @@
+＞[FrontPage]＞[リファレンス]
+
+= Roast+ イテレータ
+
+Roast+でのイテレータは、STL等のそれとは異なります。
+
+{{{ comment
+
+STLや、それに順ずる形で作成されている
+}}}
+
+=== 最低限満たすべき要件
+
+{{{ code cpp
+	template <typename ValueType, typename IndexType>
+	class iterator_require
+	{
+	public:
+		//	Next (Like iterator ++)
+		void next();
+		
+		//	Iterator pointer iValid?
+		bool is_valid();
+		
+		//	Value
+		operator const ValueType() const ;
+		ValueType& operator *();
+		ValueType& operator ->();
+		ValueType get_value();
+		
+		//	Index operations
+		void set_index(const IndexType& index);
+		IndexType get_index() const;
+		
+		//	Change the end pointer
+		void change_end(const IndexType& index);
+	};
+}}}
+defined by [http://sourceforge.jp/projects/roast/svn/view/trunk/roast/include/roast/container/iterator_require.hpp?view=markup&root=roast roast/include/roast/container/iterator_require.hpp]
+
+ * ValueType＝値の型
+ * IndexType＝インデックスの型
+
+である。任意の型でよい。
+また、コンストラクタ・デストラクタも任意に定義してよい。
+
+このクラスを継承し、オーバーロードする事も出来るが、純粋仮想関数ではない（仮想関数、及び純粋仮想関数を使用すると余分なオーバーヘッドが必然的に発生してしまうため）ため注意すること。
+
+{{{ comment
+未定義の場合であってもインスタンス化する事が出来てしまうので
+}}}
+
+=== サンプル
+
+{{{ code cpp
+	
+	template <typename T, unsigned int _END=0, unsigned int _START=0>
+	class sample_iterator
+	{
+	protected:
+		T* m_p_array;
+		unsigned int m_index;
+		unsigned int m_end;
+		
+	public:
+		//////////////////////////////////////////
+	
+		//	Constructors
+		primitive_array_iterator(T* p_array=NULL, unsigned int length=_END){
+			m_p_array = p_array;
+			m_index = _START;
+			m_end = length;
+		}
+		primitive_array_iterator(T* p_array, unsigned int start, unsigned int end){
+			m_p_array = p_array;
+			m_index = start;
+			m_end = end;
+		}
+
+		//////////////////////////////////////////
+		
+		//	Next
+		void next()
+		{
+			m_index++;
+		}
+		
+		//	IsValid?
+		bool is_valid()
+		{
+			return m_index < m_end;
+		}
+		
+		//////////////////////////////////////////
+		
+		operator const T() const 
+		{
+			return m_p_array[m_index];
+		}
+		
+		T& operator *() 
+		{
+			return m_p_array[m_index];
+		}
+		
+		T& operator ->() 
+		{
+			return m_p_array[m_index];
+		}
+		T get_value() const { return m_p_array[m_index]; }
+		
+		void set_index(unsigned int index) { m_index = index; }
+		unsigned int get_index() const { return m_index; }
+		
+		void change_end(unsigned int index) { m_end = index; }
+	};
+}}}
+
+sample by [http://sourceforge.jp/projects/roast/svn/view/trunk/roast/include/roast/container/primitive_array_iterator.hpp?view=markup&root=roast roast/include/roast/container/primitive_array_iterator.hpp]
+
+=== 基本的なイテレータ
+ * [基本的なイテレータ]
