@@ -2,10 +2,13 @@ Roast+‚Å‚ÌƒCƒeƒŒ[ƒ^‚ÍASTL“™‚Ì‚à‚Ì‚Æ‚ÍŽáŠ±Žd—l‚ªˆÙ‚È‚è‚Ü‚·B
 
 STL“™‚Å‚ÌƒCƒeƒŒ[ƒ^‚Å‚ÍAuƒ|ƒCƒ“ƒ^‚Æ“¯—l‚É“®ì‚·‚év‚ÆŒ¾‚¤ƒRƒ“ƒZƒvƒg‚ÌŒ³ì‚ç‚ê‚Ä‚¢‚Ü‚·‚ªA
 ‚±‚Ì‚½‚ß‚ÉA—á‚¦‚ÎSTL‚Ìalgorithm“™‚Å‚ÍAbegin()‚Æend()‚Ì—¼•û‚ÌƒCƒeƒŒ[ƒ^‚ð“n‚³‚Ë‚Î‚È‚ç‚¸A
-‚Ü‚½Ž©‘O‚ÌŠÖ”‚Å‚à“¯—l‚Ébegin(),end()‚ð“n‚·•K—v‚ª‚ ‚èu‚È‚ñ‚¾‚©‚È‚ŸEEEv‚ÆŽv‚Á‚½l‚à‘½‚¢‚ÆŽv‚¢‚Ü‚·B
+ê‡‚É‚æ‚Á‚Ä‚Í2ƒRƒ“ƒeƒi•ª‚ÌƒCƒeƒŒ[ƒ^i‚Â‚Ü‚è‡Œv4‚Â‚ÌƒCƒeƒŒ[ƒ^j‚ð“n‚³‚È‚¯‚ê‚Î‚¢‚¯‚È‚¢ƒAƒ‹ƒSƒŠƒYƒ€ŠÖ”‚à‚ ‚èu‚È‚ñ‚¾‚©‚È‚ŸEEEv‚ÆŽv‚Á‚½l‚à‘½‚¢‚ÆŽv‚¢‚Ü‚·B
 
-‹°‚ç‚­‚±‚ê‚ÍASTLô’èŽž‚Éu‚±‚ê‚Ü‚Å‚Ì”z—ñ‚âƒ|ƒCƒ“ƒ^‚©‚ç‚ÌˆÚs‚ª‚µ‚â‚·‚¢‚æ‚¤‚Év‚ÆŒ¾‚¤l‚¦‚ÌŒ³A
-‚Ü‚½Aƒeƒ“ƒvƒŒ[ƒg‚âƒIƒyƒŒ[ƒ^ƒI[ƒo[ƒ[ƒh‚ÌˆÐ—Í‚ðŒ©‚¹•t‚¯‚é‚½‚ß‚Ì
+‚±‚ê‚ÍŽ©‘O‚Åì¬‚µ‚½ŠÖ”“™‚Ìê‡‚É‚¨‚¢‚Ä‚à“¯—l‚ÅAbegin(),end()‚Ì2‚Â‚ÌƒCƒeƒŒ[ƒ^‚ð“n‚·•K—v‚ª‚ ‚è‚Ü‚·B
+[[BR]]‚µ‚©‚µ‚±‚ê‚Í³’¼–Ê“|‚È‚Ì‚ÅA‹°‚ç‚­‘½‚­‚Ìl‚ÍƒCƒeƒŒ[ƒ^‚Å‚Í‚È‚­A'''ƒRƒ“ƒeƒi‚»‚Ì‚à‚Ì‚Ö‚ÌŽQÆ‚âƒ|ƒCƒ“ƒ^'''‚ð“n‚µ‚Ä‚¢‚é‚Ì‚Å‚Í‚È‚¢‚©‚ÆŽv‚¢‚Ü‚·Bcˆê‘Ì‚È‚ñ‚Ì‚½‚ß‚ÌƒCƒeƒŒ[ƒ^‚È‚ñ‚©A‚ß‚ñ‚Ç‚­‚³‚¢‚¾‚¯‚¶‚á‚È‚¢‚©A‚»‚¤Žv‚Á‚½•û‚à‘½‚¢‚Å‚µ‚å‚¤B
+
+‹°‚ç‚­‚±‚Ì‚æ‚¤‚ÈŒ`‚É‚µ‚½‚Ì‚ÍASTLô’èŽž‚Éu‚±‚ê‚Ü‚Å‚Ì”z—ñ‚âƒ|ƒCƒ“ƒ^‚©‚ç‚ÌˆÚs‚ª‚µ‚â‚·‚¢‚æ‚¤‚Év‚Æ
+l‚¦‚ÌŒ³A‚È‚¢‚µuƒeƒ“ƒvƒŒ[ƒg‚âƒIƒyƒŒ[ƒ^ƒI[ƒo[ƒ[ƒh‚ðŽg‚¦‚Î‚±‚Ì‚æ‚¤‚ÈŽ–‚ào—ˆ‚éIv‚ÆŒ¾‚Á‚½Ø–¾‚Ìˆ×‚É‚±‚Ì‚æ‚¤‚ÈŒ`‚É‚È‚Á‚½‚Ì‚¾‚ÆŽv‚í‚ê‚Ü‚·‚ªA
 
 
 ‹°‚ç‚­ŽÀŽ¿“I‚É‚ÍŠF‚³‚ñA
@@ -14,7 +17,7 @@ STL“™‚Å‚ÌƒCƒeƒŒ[ƒ^‚Å‚ÍAuƒ|ƒCƒ“ƒ^‚Æ“¯—l‚É“®ì‚·‚év‚ÆŒ¾‚¤ƒRƒ“ƒZƒvƒg‚ÌŒ³ì‚ç‚ê‚
 
 
 
-u‚È‚ñ‚¾‚©‚È‚ŸEEEv‚ÆŽv‚Á‚½l‚à‘½‚¢‚ÆŽv‚¢‚Ü‚·B
+
 
 
 
