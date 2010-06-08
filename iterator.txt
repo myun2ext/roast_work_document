@@ -10,18 +10,8 @@ STL“™‚Å‚ÌƒCƒeƒŒ[ƒ^‚Å‚ÍAuƒ|ƒCƒ“ƒ^‚Æ“¯—l‚É“®ì‚·‚év‚ÆŒ¾‚¤ƒRƒ“ƒZƒvƒg‚ÌŒ³ì‚ç‚ê‚
 ‹°‚ç‚­‚±‚Ì‚æ‚¤‚ÈŒ`‚É‚µ‚½‚Ì‚ÍASTLô’èŽž‚Éu‚±‚ê‚Ü‚Å‚Ì”z—ñ‚âƒ|ƒCƒ“ƒ^‚©‚ç‚ÌˆÚs‚ª‚µ‚â‚·‚¢‚æ‚¤‚ÉiŒ^–¼‚ð‘‚«Š·‚¦‚é‚¾‚¯‚ÅˆÚs‚·‚éŽ–‚ªo—ˆAC³‹K–Í‚ª­‚È‚­Ï‚Þ‚æ‚¤‚Éjv‚Æ‚Ìl‚¦‚ÌŒ³A‚±‚ê‚É‚æ‚èŠF‚ªCŒÃ—ˆ‚©‚ç‚ÌŒÅ’è’·”z—ñEmalloc()/free()‚©‚çˆÚs‚µ‚Ä‚­‚ê‚é‚æ‚¤‚É‚ÆŠè‚¢A‚±‚Ì‚æ‚¤‚ÈŽd—l‚É‚µ‚½‚à‚Ì‚ÆŽv‚í‚ê‚Ü‚·‚ªA³’¼¡‚Æ‚È‚Á‚Ä‚ÍA‚»‚ñ‚ÈŽž‘ã’x‚ê‚È˜b‚æ‚è‚àŽg‚¢ŸŽè‚ðdŽ‹‚µ‚½‚¢Ž–‚©‚ÆŽv‚¢‚Ü‚·BiÎ
 
 
-‚æ‚è‚Ì‚±‚Ì‚æ‚¤‚ÈŽd—l‚É‚È‚Á‚½‚à‚Ì‚ÆŽv‚í‚ê‚Ü‚·‚ªA³’¼A¡‚Æ‚È‚Á‚Ä‚Í
-
-
-‹°‚ç‚­ŽÀŽ¿“I‚É‚ÍŠF‚³‚ñA
-ƒRƒ“ƒeƒi‚»‚Ì‚à‚Ì‚ÌŽQÆ‚âƒ|ƒCƒ“ƒ^‚ðŽó‚¯“n‚µ‚ÄŒ¾‚Á‚Ä‚¢‚é‚Ì‚Å‚Í‚È‚¢‚©‚ÆŽv‚¢‚Ü‚·B
+[[BR]]
+STL‚ÌƒCƒeƒŒ[ƒ^‚Å‚ÍAƒCƒeƒŒ[ƒ^‚Ìˆø“n‚µ‚âalgorithm‚ÌŽg—p‚ª–³‚­‚Æ‚àA’Pƒ‚Éƒ‹[ƒv‚·‚é‚¾‚¯‚Å‚àŒ‹\–Ê“|‚È‚à‚Ì‚Å‚·B
 
 
 
-
-
-
-
-
-begin()‚Æend()‚Ì—¼ƒCƒeƒŒ[ƒ^‚ð“n‚µ‚Ä‚¢‚©‚È‚¯‚ê‚Î‚È‚ç‚¸A
-u‚È‚ñ‚¾‚©‚È‚ŸEEEv‚Æ
