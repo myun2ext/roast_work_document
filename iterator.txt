@@ -13,5 +13,19 @@ STL“™‚Å‚ÌƒCƒeƒŒ[ƒ^‚Å‚ÍAuƒ|ƒCƒ“ƒ^‚Æ“¯—l‚É“®ì‚·‚év‚ÆŒ¾‚¤ƒRƒ“ƒZƒvƒg‚ÌŒ³ì‚ç‚ê‚
 [[BR]]
 STL‚ÌƒCƒeƒŒ[ƒ^‚Å‚ÍAƒCƒeƒŒ[ƒ^‚Ìˆø“n‚µ‚âalgorithm‚Ìg—p‚ª–³‚­‚Æ‚àA’Pƒ‚Éƒ‹[ƒv‚·‚é‚¾‚¯‚Å‚àŒ‹\–Ê“|‚È‚à‚Ì‚Å‚·B
 
+{{{ code cpp
+using namespace std;
 
+vector<int> hoge_ary;
+hoge_ary.push_back(1);
+hoge_ary.push_back(2);
+
+for(vector<int>::iterator it=hoge_ary.begin(); it != hoge_ary.end(); it++)
+{
+	cout << *it << endl;
+}
+}}}}
+
+EEEfor•¶‚ÌŠ‚Ìˆês‚Ì’·‚³‚ª'''74•¶š'''‚à‚ ‚è‚Ü‚·B
+[[BR]]‚±‚ê‚É‰Á‚¦ƒCƒ“ƒfƒ“ƒg‚ª“ü‚è‚Ü‚·‚µAvector”z—ñ‚Ì•Ï”–¼Ÿ‘æ‚Å‚Í‚»‚ë‚»‚ë‰üs‚ª—~‚µ‚¢ ‚©‚à’m‚ê‚Ü‚¹‚ñi„‚Í‚à‚¤ã‚Ì74•¶š‚Ì’iŠK‚Å“ü‚ê‚½‚¢‚­‚ç‚¢‚Å‚·‚ªEEEjB
 
